@@ -1,32 +1,62 @@
-.App {
-  text-align: center;
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan');
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.editor-container{
+    width: 45%;
+    height:35vh;
+    margin: 5vh auto;
+}   
+
+.editor-container-maximized{
+    width:95%;
+    height: 90vh;    
+    margin-top: 5vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+textarea{
+    width: 100%;
+    height:85%;
 }
 
-.App-link {
-  color: #61dafb;
+.previewer-container{
+    width: 70%;
+    min-height:55vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.previewer-container-maximized{
+    width: 95%;
+    min-height:65vh;
+    margin-top: 5vh;
+}
+
+#preview {
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+
+.no-display {
+    display: none;
+}
+header {
+    font-family: 'Oswald', sans-serif;
+    position: relative;  
+    padding: .25vh 1%;
+    height:5vh;
+    border: 1px solid black;
+}
+
+#clickable-i{
+    position: absolute;
+    right: 1%;
+    top: 5px;
+    cursor: pointer;
 }
