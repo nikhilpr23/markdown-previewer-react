@@ -1,11 +1,12 @@
 ### markdownPreviewer
 
-This project was created with the objective of completing the **second** of 5 projects under FreeCodeCamp's Front End Libraries Cerification course.
+# When I enter GitHub flavored markdown into the Editor, the text is rendered as HTML in the Previewer as I type.
 
-> When I enter GitHub flavored markdown into the Editor, the text is rendered as HTML in the Previewer as I type.
+> This project was created with the objective of completing the **second** of 5 projects under FreeCodeCamp's Front End Libraries Cerification course.
 
 **Technologies Used** -
 - React
+- Javascript
 - ES6
 - Marked(library to parse Markdown)
 - HTML5
