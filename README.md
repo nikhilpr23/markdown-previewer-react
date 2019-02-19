@@ -9,9 +9,9 @@
 - Javascript
 - CSS3
 
-##The page has a responsive design.
+The page has a **responsive design.**
 
-###The test bundle in use is from FreeCodeCamp.
+The test bundle in use is from **FreeCodeCamp.**
 
 > This project was created with the objective of completing the **second** of 5 projects under FreeCodeCamp's Front End Libraries Cerification course.
 
